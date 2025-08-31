@@ -4,6 +4,15 @@
 
 A modern, responsive portfolio website showcasing my skills, projects, and professional journey as a Full Stack Developer with expertise in AI/ML technologies.
 
+<h1 align="center">🌐 My Portfolio</h1>
+
+<p align="center">
+  <a href="https://sourav-maji.github.io" target="_blank">
+    👉  <b> Visit Live Portfolio</b>
+  </a>
+</p>
+
+
 ## 🌟 Features
 
 - **Responsive Design**: Optimized for all device sizes
@@ -57,23 +66,6 @@ Portfolio/
    - Enable GitHub Pages in repository settings
    - Your site will be available at `https://yourusername.github.io/portfolio`
 
-## 🌐 Deployment Options
-
-### GitHub Pages (Recommended)
-1. Push code to GitHub repository
-2. Go to Settings > Pages
-3. Select source branch (main/master)
-4. Your site will be live at `https://yourusername.github.io/repository-name`
-
-### Netlify
-1. Connect your GitHub repository
-2. Build command: Not needed (static site)
-3. Publish directory: `/` (root)
-
-### Vercel
-1. Import your GitHub repository
-2. Framework: Other
-3. Deploy
 
 ## 🔧 Customization
 
@@ -111,13 +103,13 @@ Portfolio/
 
 ## 📧 Contact
 
-- **Email**: your.email@domain.com
-- **LinkedIn**: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- **GitHub**: [github.com/yourusername](https://github.com/yourusername)
+- **Email**: souravmaji.dev@gmail.com
+- **LinkedIn**: [https://www.linkedin.com/in/souravmajiwb/](https://www.linkedin.com/in/souravmajiwb/)
+- **GitHub**: [https://github.com/sourav-maji](https://github.com/sourav-maji/)
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License
 
 ## ⭐ Acknowledgments
 
