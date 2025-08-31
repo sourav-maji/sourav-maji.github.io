@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourav Maji - Full Stack Developer & AI Enthusiast</title>
+        <!-- Primary Meta Tags -->
+        <meta name="title" content="Sourav Maji - Full Stack Developer & AI Enthusiast">
+        <meta name="description" content="Full Stack Developer & AI enthusiast building intelligent automation, backend systems, and developer tooling. Explore featured projects, skills, and live GitHub & LeetCode stats.">
+        <meta name="author" content="Sourav Maji">
+        <meta name="robots" content="index,follow">
+        <link rel="canonical" href="https://souravmaji.github.io/"> <!-- Assumed canonical URL; update if custom domain -->
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://souravmaji.github.io/">
+        <meta property="og:title" content="Sourav Maji - Full Stack Developer & AI Enthusiast">
+        <meta property="og:description" content="Building intelligent automation, backend systems & AI-driven tooling. View projects, skills, and live stats.">
+        <meta property="og:image" content="https://souravmaji.github.io/og-image.png"> <!-- Provide real image -->
+
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:url" content="https://souravmaji.github.io/">
+        <meta name="twitter:title" content="Sourav Maji - Full Stack Developer & AI Enthusiast">
+        <meta name="twitter:description" content="Full Stack Developer & AI enthusiast focused on automation, backend excellence & intelligent tooling.">
+        <meta name="twitter:image" content="https://souravmaji.github.io/og-image.png"> <!-- Provide real image -->
+
+        <!-- Theme Color -->
+        <meta name="theme-color" content="#0f172a" id="meta-theme-color">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/jpeg" href="assets/icon.jpg">
+        <link rel="dns-prefetch" href="https://api.github.com">
+        <link rel="dns-prefetch" href="https://alfa-leetcode-api.onrender.com">
+        <link rel="dns-prefetch" href="https://leetcode-stats-api.herokuapp.com">
+        <link rel="dns-prefetch" href="https://leetcode-badge.haohaobear.me">
+    
+        <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Primary">
+        <div class="nav-container">
+            <a href="#home" class="logo" aria-label="Homepage – Sourav Maji">Sourav Maji</a>
+            <ul class="nav-menu" role="menubar">
+                <li role="none"><a href="#home" class="nav-link" role="menuitem" aria-current="page">Home</a></li>
+                <li role="none"><a href="#about" class="nav-link" role="menuitem">About</a></li>
+                <li role="none"><a href="#projects" class="nav-link" role="menuitem">Projects</a></li>
+                <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false"><i class="fas fa-moon" aria-hidden="true"></i><span class="toggle-text">Dark</span></button>
+        </div>
+    </nav>
+
+    <main id="main" tabindex="-1">
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-profile">
+                <img src="assets/profile.jpg" alt="Sourav Maji - Full Stack Developer" class="hero-avatar">
+            </div>
+            <h1>Sourav Maji</h1>
+            <p class="hero-subtitle">Full Stack Developer & AI Enthusiast</p>
+            <p class="hero-description">
+                Passionate developer from India specializing in AI integration, backend development, and automation tools. 
+                I build intelligent solutions with modern web technologies and love turning complex problems into elegant code.
+            </p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-rocket"></i>
+                    View My Work
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <i class="fas fa-envelope"></i>
+                    Get In Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="section stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" id="years-experience">6</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number loading" id="github-repos">...</div>
+                    <div class="stat-label">GitHub Repositories</div>
+                </div>
+                <div class="stat-card leetcode-card">
+                    <div class="stat-number loading" id="leetcode-problems">...</div>
+                    <div class="stat-label">LeetCode Problems</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <p>Get to know me better and learn about my journey in tech</p>
+            </div>
+            <div class="about-content single-column">
+                <div class="about-text">
+                    <h3>Hello! I'm Sourav Maji</h3>
+                    <p>
+                        I'm a passionate full-stack developer from India with expertise in AI integration, 
+                        backend development, and automation tools. I specialize in building intelligent solutions 
+                        that streamline development workflows and create robust, scalable applications.
+                    </p>
+                    <p>
+                        Currently working on AI-powered automation tools, comprehensive testing frameworks, and 
+                        production-ready backend templates. I love contributing to open-source projects and 
+                        sharing knowledge through technical blogs and documentation.
+                    </p>
+                    <div class="skills">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Angular</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Jest</span>
+                        <span class="skill-tag">Google Gemini AI</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                        <span class="skill-tag">JWT</span>
+                    </div>
+                    <div class="about-highlights" aria-label="Professional focus areas">
+                        <div class="highlight-card">
+                            <div class="icon-wrap"><i class="fas fa-gears" aria-hidden="true"></i></div>
+                            <h4>Automation & Tooling</h4>
+                            <p>Building internal developer tools & AI-assisted workflows that cut manual effort.</p>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="icon-wrap"><i class="fas fa-server" aria-hidden="true"></i></div>
+                            <h4>Scalable Backends</h4>
+                            <p>Designing secure, modular Node.js services with robust testing & CI/CD.</p>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="icon-wrap"><i class="fas fa-brain" aria-hidden="true"></i></div>
+                            <h4>AI Integration</h4>
+                            <p>Embedding AI into products: intelligent docs, smart generation & workflow insight.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Projects</h2>
+                <p>Here are some of my recent projects that showcase my skills and expertise</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-badge">Featured Project</div>
+                        <h3 class="project-title">JSON → TypeScript Interface Converter</h3>
+                        <p class="project-description">
+                            A modern web application that converts JSON input into clean, ready-to-use TypeScript interfaces. 
+                            Features nested object support, optional/readonly flags, auto-formatting, copy/download options, 
+                            dark/light mode, and debounced input for real-time conversion.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Vite</span>
+                            <span class="tech-tag">TailwindCSS</span>
+                            <span class="tech-tag">ShadCN/UI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://jsontotypescript.vercel.app/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="https://github.com/sourav-maji/json-to-typescript-interface-converter" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Auto Documentation Generator</h3>
+                        <p class="project-description">
+                            AI-Powered Documentation Assistant that leverages Google Gemini AI to automatically 
+                            generate and update technical documentation based on Git changes. Perfect for 
+                            maintaining up-to-date project docs with zero manual effort.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">Google Gemini AI</span>
+                            <span class="tech-tag">Git Integration</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sourav-maji/auto-doc-generator" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">API Automation Framework</h3>
+                        <p class="project-description">
+                            Comprehensive Testing Solution - A modular API test automation framework built with 
+                            Node.js, Jest, and Axios. Features JWT authentication, controller-based test structure, 
+                            dynamic payload generation, and HTML reporting with CI/CD integration.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Jest</span>
+                            <span class="tech-tag">Axios</span>
+                            <span class="tech-tag">GitHub Actions</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sourav-maji/ApiAutomationFrameWork" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Backend Starter Template</h3>
+                        <p class="project-description">
+                            Production-Ready Backend Boilerplate - A robust, modular Node.js backend template with 
+                            JWT authentication, role-based access control, MongoDB integration, comprehensive logging, 
+                            and testing support. Built with ES6 modules and industry best practices.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">JWT</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sourav-maji/backend-starter-template" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Real-Time Chat Application</h3>
+                        <p class="project-description">
+                            Modern Communication Platform - A feature-rich real-time chat application built with 
+                            TypeScript, demonstrating modern web communication technologies and responsive design principles.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Real-time Communication</span>
+                            <span class="tech-tag">Modern Web APIs</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sourav-maji/chatapp" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Deep Learning Projects</h3>
+                        <p class="project-description">
+                            Binary sentiment analysis using neural networks on IMDB movie reviews dataset. 
+                            Demonstrates deep learning fundamentals, overfitting patterns, and model evaluation techniques 
+                            with comprehensive Jupyter notebook implementations.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Jupyter Notebook</span>
+                            <span class="tech-tag">Deep Learning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sourav-maji/Deep-Learing-Project-1" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Let's Work Together</h2>
+                <p>Have a project in mind? I'd love to hear about it and discuss how we can bring your ideas to life.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>souravmaji.dev@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>India (UTC +05:30)</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-blog"></i>
+                        <span>souravmaji.hashnode.dev</span>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://github.com/sourav-maji" class="social-link" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/souravmajiwb/" class="social-link" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://leetcode.com/u/sourav-maji/" class="social-link leetcode-link" target="_blank" title="LeetCode">
+                        <i class="fas fa-code"></i>
+                    </a>
+                    <a href="https://souravmaji.hashnode.dev/" class="social-link" target="_blank" title="Blog">
+                        <i class="fas fa-blog"></i>
+                    </a>
+                    <a href="mailto:souravmaji.dev@gmail.com" class="social-link" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    </main>
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <p>&copy; 2025 Sourav Maji. All rights reserved. Built with ❤️</p>
+            <p style="margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.8;">"Code is like humor. When you have to explain it, it's bad." - Cory House</p>
+        </div>
+    </footer>
+
+    <script src="src/script.js"></script>
+</body>
+</html>
